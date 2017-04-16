@@ -1,0 +1,27 @@
+rome capital italy	WorldGeography
+france europe	WorldGeography
+pacific deeper atlantic	WorldGeography
+neeson star schindlers list	oscar-movie_imdb
+swank win oscar 2000	oscar-movie_imdb
+shining kubrik	oscar-movie_imdb
+french actor win oscar 2012	oscar-movie_imdb
+movie spielberg neeson win oscar best film	oscar-movie_imdb
+madonna sing papadonotpreach	music
+doe album thriller include track beatit	music
+wa beyonce born usa	music
+directed hugo	oscar-movie_imdb
+scary movie kubrik nicholson	oscar-movie_imdb
+oscar best actor 2005	oscar-movie_imdb
+actress oscar 2012	oscar-movie_imdb
+directed best movie 2010	oscar-movie_imdb
+continent doe canada lie	WorldGeography
+capital spain	WorldGeography
+country doe france border	WorldGeography
+highest mountain world	WorldGeography
+highest mountain	WorldGeography
+deepest ocean	WorldGeography
+pop artist sings crazyinlove	music
+wa gaga born	music
+album doe aura appear	music
+album swift wa released 2014	music
+song taylor swift sing	music
