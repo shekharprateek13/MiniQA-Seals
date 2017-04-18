@@ -1,0 +1,70 @@
+% start S
+
+S[SEM=(?np + WHERE + ?vp)] -> NP[SEM=?np] VP[SEM=?vp]
+S[SEM=(?pp + WHERE + ?vp)] -> PP[SEM=?pp] VP[SEM=?vp]
+S[SEM=(?np + WHERE + ?vpp)] -> NP[SEM=?np] VPP[SEM=?vpp]
+S[SEM=(?ngp + ?vp)] -> NGP[SEM=?ngp] VP[SEM=?vp]
+S[SEM=(?where + ?vp)] -> Where[SEM=?where] VP[SEM=?vp]
+
+VP[SEM=(?v + ?v1)] -> VP[SEM=?v] VP[SEM=?v1]
+VP[SEM=(?v + AND + ?v1)] -> V[SEM=?v] V[SEM=?v1]
+VP[SEM=(?v + ?v1)] -> V[SEM=?v] VB[SEM=?v1]
+VP[SEM=?v] -> VP[SEM=?v] VB[SEM=?v1]
+VP[SEM=(?v + ?np)] -> V[SEM=?v] NP[SEM=?np]
+VP[SEM=(?v + AND + ?nt)] -> V[SEM=?v] NT[SEM=?nt]
+VP[SEM=(?nt)] -> V[SEM=?v] NT[SEM=?nt] Verb[SEM=?v1]
+VP[SEM=(?vp + ?v)] -> VP[SEM=?vp] V[SEM=?v]
+VP[SEM=(?np + ?vp)] -> NP[SEM=?np] VP[SEM=?vp]
+VPP[SEM=(?v + ?pp)] -> VP[SEM=?v] PP[SEM=?pp]
+VP[SEM=(?v + ?pp)] -> IV[SEM=?v] PP[SEM=?pp]
+VP[SEM=(?v + ?ap)] -> IV[SEM=?v] AP[SEM=?ap]
+NP[SEM=(?det + ?n)] -> Det[SEM=?det] N[SEM=?n]
+NGP[SEM=(?det + ?ngp)] -> Det[SEM=?det] NGP[SEM=?ngp]
+PP[SEM=(?p + ?np)] -> P[SEM=?p] NP[SEM=?np]
+AP[SEM=?pp] -> A[SEM=?a] PP[SEM=?pp]
+NGP[SEM=(?n + WHERE + ?ng)] -> NG[SEM=?ng] N[SEM=?n]
+
+NP[SEM='artistName="Beyonce"'] -> 'beyonce'
+NP[SEM='artistName="Taylor Swift"'] -> 'taylor' | 'swift'
+NP[SEM='artistName="Madonna"'] -> 'madonna'
+NP[SEM='artistName="Michael Jackson"'] -> 'michael' | 'jackson'
+NP[SEM='artistName="Lady Gaga"'] -> 'lady' | 'gaga'
+NP[SEM='"2014%"'] -> '2014'
+NP[SEM='"2015%"'] -> '2015'
+NP[SEM='"1986%"'] -> '1986'
+NP[SEM='"1987%"'] -> '1987'
+NP[SEM='"1982%"'] -> '1982'
+NP[SEM='"2013%"'] -> '2013'
+NP[SEM='"2008%"'] -> '2008'
+NP[SEM='"2011%"'] -> '2011'
+NP[SEM='"2003%"'] -> '2003'
+NP[SEM='"1958%"'] -> '1958'
+NP[SEM='"1981%"'] -> '1981'
+NP[SEM='"1986%"'] -> '1986'
+
+
+Det[SEM='SELECT'] -> 'which' | 'what'
+Where[SEM='SELECT distinct artistPlaceOfBirth from music_view WHERE'] -> 'where'
+
+N[SEM='distinct albumName FROM music_view'] -> 'album' | 'albums'
+N[SEM='distinct trackName FROM music_view'] -> 'song' | 'songs' | 'tracks'
+NG[SEM='genreName="pop"'] -> 'pop'
+NG[SEM='genreName="rock"'] -> 'rock'
+NG[SEM='genreName="dance"'] -> 'dance'
+N[SEM='distinct artistName FROM music_view'] -> 'artist' | 'artists'
+NT[SEM='trackName like "%Thriller%"'] -> 'thriller'
+NT[SEM='trackName like "%Aura%"'] -> 'aura'
+NT[SEM='trackName like "%Venus%"'] -> 'venus'
+NT[SEM='trackName like "%Ghosttown%"'] -> 'ghosttown'
+
+V[SEM='albumReleaseDate like'] -> 'released'
+VB[SEM='artistDateOfBirth like'] -> 'born'
+
+V[SEM=''] -> 'did' | 'by' | 'was' | 'were' | 'of' | 'does'
+A[SEM=''] -> 'located'
+P[SEM=''] -> 'in'
+V[SEM=''] -> 'sing' | 'sings' | 'sang'
+Verb[SEM=''] -> 'appear'
+
+
+
