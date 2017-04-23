@@ -1,0 +1,77 @@
+% start S
+
+S[SEM=(?np + WHERE + ?vp)] -> NP[SEM=?np] VP[SEM=?vp]
+S[SEM=(?vp + AND + ?np)] -> VP[SEM=?vp] NP[SEM=?np]
+S[SEM=(?vp + AND + ?pp)] -> VP[SEM=?vp] PP[SEM=?pp]
+S[SEM=(?vp + ?ap)] -> VP[SEM=?vp] AP[SEM=?ap]
+
+VP[SEM=(?vp + WHERE + ?np)] -> VPD[SEM=?vp] NP[SEM=?np]
+VPD[SEM=(?v + ?np)] -> Does[SEM=?v] NP[SEM=?np]
+VP[SEM=(?v + ?v1 + WHERE + ?np)] -> V[SEM=?v] NP[SEM=?np] V[SEM=?v1]
+VP[SEM=(?v + ?np + WHERE + ?np1)] -> V[SEM=?v] NP[SEM=?np] NP[SEM=?np1]
+AP[SEM=(?a + ?np + AND + ?np1)] -> A[SEM=?a] NP[SEM=?np] NP[SEM=?np1]
+VP[SEM=(?vp + ?v)] -> VP[SEM=?vp] V[SEM=?v]
+VP[SEM=(?np + ?vp)] -> NP[SEM=?np] VP[SEM=?vp]
+VP[SEM=(?v + ?pp)] -> IV[SEM=?v] PP[SEM=?pp]
+VP[SEM=(?v + ?ap)] -> IV[SEM=?v] AP[SEM=?ap]
+NP[SEM=(?det + ?n)] -> Det[SEM=?det] N[SEM=?n]
+NP[SEM=?n] -> N[SEM=?n]
+PP[SEM=(?p + ?np)] -> P[SEM=?p] NP[SEM=?np]
+AP[SEM=?pp] -> A[SEM=?a] PP[SEM=?pp]
+
+NP[SEM='artistName="Beyonce"'] -> 'beyonce'
+NP[SEM='artistName="Taylor Swift"'] -> 'taylor' | 'swift'
+NP[SEM='artistName="Madonna"'] -> 'madonna'
+NP[SEM='artistName="Michael Jackson"'] -> 'michael' | 'jackson'
+NP[SEM='artistName="Lady Gaga"'] -> 'lady' | 'gaga'
+NP[SEM='artistName="Beyonce"'] -> 'beyonce'
+
+NP[SEM='albumName like "%Thriller%"'] -> 'thriller'
+NP[SEM='albumName like "%Dangerously in Love%"'] -> 'dangerouslyinlove'
+NP[SEM='albumName like "%4%"'] -> '4'
+NP[SEM='albumName like "%The Fame%"'] -> 'thefame'
+NP[SEM='albumName like "%Artpop%"'] -> 'artpop'
+
+NP[SEM='trackName like "%Thriller%"'] -> 'thrillernight'
+NP[SEM='trackName="Papa Do not Preach"'] -> 'papadonotpreach'
+NP[SEM='trackName="Crazy in Love"'] -> 'crazyinlove'
+NP[SEM='trackName="Baby Boy"'] -> 'babyboy'
+NP[SEM='trackName="Be With You"'] -> 'bewithyou'
+NP[SEM='trackName="1+1"'] -> '1+1'
+NP[SEM='trackName="I Care"'] -> 'icare'
+NP[SEM='trackName="I Miss You"'] -> 'imissyou'
+NP[SEM='trackName="Best Thing I Never Had"'] -> 'bestthingineverhad'
+NP[SEM='trackName="Just Dance"'] -> 'justdance'
+NP[SEM='trackName="Love Game"'] -> 'lovegame'
+NP[SEM='trackName="Aura"'] -> 'aura'
+NP[SEM='trackName="Venus"'] -> 'venus'
+NP[SEM='trackName="Beat It"'] -> 'beatit'
+NP[SEM='trackName="I am Bad"'] -> 'iambad'
+NP[SEM='trackName="The Way You Make Me Feel"'] -> 'thewayyoumakemefeel'
+NP[SEM='trackName="Speed Demon"'] -> 'speeddemon'
+NP[SEM='trackName="Welcome To New York"'] -> 'welcometonewyork'
+NP[SEM='trackName="Blank Space"'] -> 'blankspace'
+NP[SEM='trackName="White Heat"'] -> 'whiteheat'
+NP[SEM='trackName="Open Your Heart"'] -> 'openyourheart'
+NP[SEM='trackName="Devil Pray"'] -> 'devilpray'
+NP[SEM='trackName="Ghosttown"'] -> 'ghosttown'
+
+V[SEM='SELECT'] -> 'was' |'did' | 'is' | 'were' | 'could' | 'do' | 'are' | 'have' | 'had' | 'should'
+Does[SEM='SELECT'] -> 'does'
+
+N[SEM='distinct "yes" FROM music_view '] -> 'album'
+N[SEM=''] -> 'track' | 'song'
+
+A[SEM=''] -> 'located' | 'include'
+P[SEM=''] -> 'in'
+V[SEM='distinct "yes" FROM music_view '] -> 'sing'
+V[SEM='distinct "yes" FROM music_view '] -> 'born'
+N[SEM='artistPlaceOfBirth like "%Manhattan%"'] -> 'manhattan' | 'ny' | 'new' | 'york' | 'newyork'
+N[SEM='artistPlaceOfBirth like "%Houston%"'] -> 'houston' | 'tx' | 'texas'
+N[SEM='artistPlaceOfBirth like "%Holmby Hills, CA%"'] -> 'holmby' | 'hills' | 'california' | 'ca' | 'holmbyhills'
+N[SEM='artistPlaceOfBirth like "%Bay City, MI%"'] -> 'bay' | 'city' | 'baycity' | 'michigan' | 'mi'
+N[SEM='artistPlaceOfBirth in ("Houston, TX", "Manhattan, NY", "Holmby Hills, CA", "Bay City, MI")'] -> 'usa' | 'us' | 'united' | 'states'
+Det[SEM=''] -> 'the'
+
+
+
