@@ -1,0 +1,206 @@
+Is the Pacific deeper than the Atlantic?	WorldGeography
+Which is the highest mountain in the world?	WorldGeography
+Where is the highest mountain?	WorldGeography
+Which is the deepest ocean?	WorldGeography
+Which pop artist sings Crazy in Love	artistName
+Which pop artist sings Baby Boy	artistName
+Which pop artist sings Be With You	artistName
+Which pop artist sings 1+1	artistName
+Which pop artist sings I Care	artistName
+Which pop artist sings I Miss You	artistName
+Which pop artist sings Best Thing I Never Had	artistName
+Which pop artist sings Just Dance	artistName
+Which pop artist sings Love Game	artistName
+Which pop artist sings Aura	artistName
+Which pop artist sings Venus	artistName
+Which pop artist sings Thriller Night	artistName
+Which pop artist sings Beat It	artistName
+Which pop artist sings I am Bad	artistName
+Which pop artist sings The Way You Make Me Feel	artistName
+Which pop artist sings Speed Demon	artistName
+Which pop artist sings Welcome To New York	artistName
+Which pop artist sings Blank Space	artistName
+Which pop artist sings White Heat	artistName
+Which pop artist sings Papa Do not Preach	artistName
+Which pop artist sings Open Your Heart	artistName
+Which pop artist sings Devil Pray	artistName
+Which pop artist sings Ghosttown	artistName
+Where was Beyonce born?	artistPlaceOfBirth
+Where was Lady Gaga born?	artistPlaceOfBirth
+Where was Michael Jackson born?	artistPlaceOfBirth
+Where was Madonna born?	artistPlaceOfBirth
+In which album does Crazy in Love appear?	albumName
+In which album does Baby Boy appear?	albumName
+In which album does Be With You appear?	albumName
+In which album does 1+1 appear?	albumName
+In which album does I Care appear?	albumName
+In which album does I Miss You appear?	albumName
+In which album does Best Thing I Never Had appear?	albumName
+In which album does Just Dance appear?	albumName
+In which album does Love Game appear?	albumName
+In which album does Aura appear?	albumName
+In which album does Venus appear?	albumName
+In which album does Thriller Night appear?	albumName
+In which album does Beat It appear?	albumName
+In which album does I am Bad appear?	albumName
+In which album does The Way You Make Me Feel appear?	albumName
+In which album does Speed Demon appear?	albumName
+In which album does Welcome To New York appear?	albumName
+In which album does Blank Space appear?	albumName
+In which album does White Heat appear?	albumName
+In which album does Papa Do not Preach appear?	albumName
+In which album does Open Your Heart appear?	albumName
+In which album does Devil Pray appear?	albumName
+In which album does Ghosttown appear?	albumName
+Which album by Beyonce was released in 2014?	albumName
+Which album by Lady Gaga was released in 2014?	albumName
+Which album by Michael Jackson was released in 2014?	albumName
+Which album by Madonna was released in 2014?	albumName
+In which continent does USA lie?	continentName
+In which continent does Vatican City lie?	continentName
+In which continent does San Marino lie?	continentName
+In which continent does Switzerland lie?	continentName
+In which continent does Slovenia lie?	continentName
+In which continent does Austria lie?	continentName
+In which continent does Canada lie?	continentName
+In which continent does Italy lie?	continentName
+In which continent does France lie?	continentName
+What is the capital of USA?	capital
+What is the capital of Vatican City?	capital
+What is the capital of San Marino?	capital
+What is the capital of Switzerland?	capital
+What is the capital of Slovenia?	capital
+What is the capital of Austria?	capital
+What is the capital of Canada?	capital
+What is the capital of Italy?	capital
+What is the capital of France?	capital
+With which countries does USA have a border?	border
+With which countries does Vatican City have a border?	border
+With which countries does San Marino have a border?	border
+With which countries does Switzerland have a border?	border
+With which countries does Slovenia have a border?	border
+With which countries does Austria have a border?	border
+With which countries does Canada have a border?	border
+With which countries does Italy have a border?	border
+With which countries does France have a border?	border
+With which countries does have a border?	border
+Is Rome the capital of USA?	capital
+Is Rome the capital of Vatican City?	capital
+Is Rome the capital of San Marino?	capital
+Is Rome the capital of Switzerland?	capital
+Is Rome the capital of Slovenia?	capital
+Is Rome the capital of Austria?	capital
+Is Rome the capital of Canada?	capital
+Is Rome the capital of Italy?	capital
+Is Rome the capital of France?	capital
+Is Is France in Europe?	countryName
+Is USA in Australia	countryName
+Is Vatican City in Australia	countryName
+Is San Marino in Australia	countryName
+Is Switzerland in Australia	countryName
+Is Slovenia in Australia	countryName
+Is Austria in Australia	countryName
+Is Canada in Australia	countryName
+Is Italy in Australia	countryName
+Is France in Australia	countryName
+Is USA in Europe	countryName
+Is Vatican City in Europe	countryName
+Is San Marino in Europe	countryName
+Is Switzerland in Europe	countryName
+Is Slovenia in Europe	countryName
+Is Austria in Europe	countryName
+Is Canada in Europe	countryName
+Is Italy in Europe	countryName
+Is France in Europe	countryName
+Is USA in Antarctica?	countryName
+Is Vatican City in Antarctica?	countryName
+Is San Marino in Antarctica?	countryName
+Is Switzerland in Antarctica?	countryName
+Is Slovenia in Antarctica?	countryName
+Is Austria in Antarctica?	countryName
+Is Canada in Antarctica?	countryName
+Is Italy in Antarctica?	countryName
+Is France in Antarctica?	countryName
+Is USA in South America?	countryName
+Is Vatican City in South America?	countryName
+Is San Marino in South America?	countryName
+Is Switzerland in South America?	countryName
+Is Slovenia in South America?	countryName
+Is Austria in South America?	countryName
+Is Canada in South America?	countryName
+Is Italy in South America?	countryName
+Is France in South America?	countryName
+Is USA in North America?	countryName
+Is Vatican City in North America?	countryName
+Is San Marino in North America?	countryName
+Is Switzerland in North America?	countryName
+Is Slovenia in North America?	countryName
+Is Austria in North America?	countryName
+Is Canada in North America?	countryName
+Is Italy in North America?	countryName
+Is France in North America?	countryName
+Is USA in Africa?	countryName
+Is Vatican City in Africa?	countryName
+Is San Marino in Africa?	countryName
+Is Switzerland in Africa?	countryName
+Is Slovenia in Africa?	countryName
+Is Austria in Africa?	countryName
+Is Canada in Africa?	countryName
+Is Italy in Africa?	countryName
+Is France in Africa?	countryName
+Is USA in Asia?	countryName
+Is Vatican City in Asia?	countryName
+Is San Marino in Asia?	countryName
+Is Switzerland in Asia?	countryName
+Is Slovenia in Asia?	countryName
+Is Austria in Asia?	countryName
+Is Canada in Asia?	countryName
+Is Italy in Asia?	countryName
+Is France in Asia?	countryName
+which song did Beyonce sing?	trackName
+which song did Lady Gaga sing?	trackName
+which song did Michael Jackson sing?	trackName
+which song did Taylor Swift sing?	trackName
+which song did Madonna sing?	trackName
+Who directed the best movie in 2010?	directorName
+Which actress won the oscar in 2012?	actorName
+Who won the oscar for the best actor in 2005?	actorName
+Which is the scary movie by Kubrik with Nicholson?	movieName
+Who directed Hugo?	directorName
+Was Beyonce born in the USA?	artistPlaceOfBirth
+Was Lady Gaga born in the USA?	artistPlaceOfBirth
+Was Michael Jackson born in the USA?	artistPlaceOfBirth
+Was Taylor Swift born in the USA?	artistPlaceOfBirth
+Was Madonna born in the USA?	artistPlaceOfBirth
+Was Beyonce born in the Houston, TX?	artistPlaceOfBirth
+Was Lady Gaga born in the Houston, TX?	artistPlaceOfBirth
+Was Michael Jackson born in the Houston, TX?	artistPlaceOfBirth
+Was Taylor Swift born in the Houston, TX?	artistPlaceOfBirth
+Was Madonna born in the Houston, TX?	artistPlaceOfBirth
+Was Beyonce born in the Manhattan, NY?	artistPlaceOfBirth
+Was Lady Gaga born in the Manhattan, NY?	artistPlaceOfBirth
+Was Michael Jackson born in the Manhattan, NY?	artistPlaceOfBirth
+Was Taylor Swift born in the Manhattan, NY?	artistPlaceOfBirth
+Was Madonna born in the Manhattan, NY?	artistPlaceOfBirth
+Was Beyonce born in the Holmby Hills, CA?	artistPlaceOfBirth
+Was Lady Gaga born in the Holmby Hills, CA?	artistPlaceOfBirth
+Was Michael Jackson born in the Holmby Hills, CA?	artistPlaceOfBirth
+Was Taylor Swift born in the Holmby Hills, CA?	artistPlaceOfBirth
+Was Madonna born in the Holmby Hills, CA?	artistPlaceOfBirth
+Was Beyonce born in the Reading, PA?	artistPlaceOfBirth
+Was Lady Gaga born in the Reading, PA?	artistPlaceOfBirth
+Was Michael Jackson born in the Reading, PA?	artistPlaceOfBirth
+Was Taylor Swift born in the Reading, PA?	artistPlaceOfBirth
+Was Madonna born in the Reading, PA?	artistPlaceOfBirth
+Was Beyonce born in the Bay City, MI?	artistPlaceOfBirth
+Was Lady Gaga born in the Bay City, MI?	artistPlaceOfBirth
+Was Michael Jackson born in the Bay City, MI?	artistPlaceOfBirth
+Was Taylor Swift born in the Bay City, MI?	artistPlaceOfBirth
+Was Madonna born in the Bay City, MI?	artistPlaceOfBirth
+Does the album Thriller include the track BeatIt?	trackName
+Did Madonna sing Papa Do Not Preach?	artistName
+Did a movie by Spielberg with Neeson win the oscar for best film?	movieName
+Did a French actor win the oscar in 2012?	artistName
+Is the Shining by Kubrik?	movieName
+Did Neeson star in Schindler’s List?	actorName
+Did Swank win the oscar in 2000?	oscarType

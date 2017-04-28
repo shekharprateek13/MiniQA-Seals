@@ -46,15 +46,27 @@ training_set = nltk.classify.apply_features(analysis.extract_features, analysis.
 print("Starting...")
 classifier = nltk.NaiveBayesClassifier.train(training_set)
 
-query = input('Enter a query within double quotes: ')
+query = "Is Austria in North America?"#input('Enter a query within double quotes: ')
 db = classifier.classify(analysis.extract_features(analysis.generate_input_tokens(1, process.cleanup(query)))) 
 print db
+
+process.xls_to_txt('AnswerTypeDatabase.xlsx','AnswerTypeDatabase.txt')
+print("Text file saved")           
+process.clean_text_files('AnswerTypeDatabase_cleaned.txt','AnswerTypeDatabase.txt')
+print("Cleaned Text file saved") 
+analysis = feature_extraction("AnswerTypeDatabase_cleaned.txt",1)
+training_set = nltk.classify.apply_features(analysis.extract_features, analysis.tweets)
+print("Starting...")
+classifier = nltk.NaiveBayesClassifier.train(training_set)
+
+answer_type = classifier.classify(analysis.extract_features(analysis.generate_input_tokens(1, process.cleanup(query)))) 
+print answer_type
     
 #nltk.data.show_cfg('SealsGrammar/s4.fcfg')
 
-if(db == "music\n"):
-    execute_query(query, 'SealsGrammar/music_yes_no_grammar.fcfg', 'SealsGrammar/music_wh_grammar.fcfg', 'SealsDB/music.db')
-elif(db == "WorldGeography\n"):
-    execute_query(query, '', '', 'SealsDB/WorldGeography.db')
-elif(db == "oscar-movie_imdb\n"):
-    execute_query(query, '', '', 'SealsDB/oscar-movie_imdb.db')
+#if(db == "music\n"):
+#    execute_query(query, 'SealsGrammar/music_yes_no_grammar.fcfg', 'SealsGrammar/music_wh_grammar.fcfg', 'SealsDB/music.db')
+#elif(db == "WorldGeography\n"):
+#    execute_query(query, '', '', 'SealsDB/WorldGeography.db')
+#elif(db == "oscar-movie_imdb\n"):
+#    execute_query(query, '', '', 'SealsDB/oscar-movie_imdb.db')

@@ -1,0 +1,206 @@
+pacific deeper atlantic	WorldGeography
+highest mountain world	WorldGeography
+highest mountain	WorldGeography
+deepest ocean	WorldGeography
+pop artist sings crazy love	artistName
+pop artist sings baby boy	artistName
+pop artist sings	artistName
+pop artist sings 11	artistName
+pop artist sings care	artistName
+pop artist sings miss	artistName
+pop artist sings best thing never	artistName
+pop artist sings dance	artistName
+pop artist sings love game	artistName
+pop artist sings aura	artistName
+pop artist sings venus	artistName
+pop artist sings thriller night	artistName
+pop artist sings beat	artistName
+pop artist sings bad	artistName
+pop artist sings way make feel	artistName
+pop artist sings speed demon	artistName
+pop artist sings welcome new york	artistName
+pop artist sings blank space	artistName
+pop artist sings white heat	artistName
+pop artist sings papa preach	artistName
+pop artist sings open heart	artistName
+pop artist sings devil pray	artistName
+pop artist sings ghosttown	artistName
+wa beyonce born	artistPlaceOfBirth
+wa lady gaga born	artistPlaceOfBirth
+wa michael jackson born	artistPlaceOfBirth
+wa madonna born	artistPlaceOfBirth
+album doe crazy love appear	albumName
+album doe baby boy appear	albumName
+album doe appear	albumName
+album doe 11 appear	albumName
+album doe care appear	albumName
+album doe miss appear	albumName
+album doe best thing never appear	albumName
+album doe dance appear	albumName
+album doe love game appear	albumName
+album doe aura appear	albumName
+album doe venus appear	albumName
+album doe thriller night appear	albumName
+album doe beat appear	albumName
+album doe bad appear	albumName
+album doe way make feel appear	albumName
+album doe speed demon appear	albumName
+album doe welcome new york appear	albumName
+album doe blank space appear	albumName
+album doe white heat appear	albumName
+album doe papa preach appear	albumName
+album doe open heart appear	albumName
+album doe devil pray appear	albumName
+album doe ghosttown appear	albumName
+album beyonce wa released 2014	albumName
+album lady gaga wa released 2014	albumName
+album michael jackson wa released 2014	albumName
+album madonna wa released 2014	albumName
+continent doe usa lie	continentName
+continent doe vatican city lie	continentName
+continent doe san marino lie	continentName
+continent doe switzerland lie	continentName
+continent doe slovenia lie	continentName
+continent doe austria lie	continentName
+continent doe canada lie	continentName
+continent doe italy lie	continentName
+continent doe france lie	continentName
+capital usa	capital
+capital vatican city	capital
+capital san marino	capital
+capital switzerland	capital
+capital slovenia	capital
+capital austria	capital
+capital canada	capital
+capital italy	capital
+capital france	capital
+country doe usa border	border
+country doe vatican city border	border
+country doe san marino border	border
+country doe switzerland border	border
+country doe slovenia border	border
+country doe austria border	border
+country doe canada border	border
+country doe italy border	border
+country doe france border	border
+country doe border	border
+rome capital usa	capital
+rome capital vatican city	capital
+rome capital san marino	capital
+rome capital switzerland	capital
+rome capital slovenia	capital
+rome capital austria	capital
+rome capital canada	capital
+rome capital italy	capital
+rome capital france	capital
+france europe	countryName
+usa australia	countryName
+vatican city australia	countryName
+san marino australia	countryName
+switzerland australia	countryName
+slovenia australia	countryName
+austria australia	countryName
+canada australia	countryName
+italy australia	countryName
+france australia	countryName
+usa europe	countryName
+vatican city europe	countryName
+san marino europe	countryName
+switzerland europe	countryName
+slovenia europe	countryName
+austria europe	countryName
+canada europe	countryName
+italy europe	countryName
+france europe	countryName
+usa antarctica	countryName
+vatican city antarctica	countryName
+san marino antarctica	countryName
+switzerland antarctica	countryName
+slovenia antarctica	countryName
+austria antarctica	countryName
+canada antarctica	countryName
+italy antarctica	countryName
+france antarctica	countryName
+usa south america	countryName
+vatican city south america	countryName
+san marino south america	countryName
+switzerland south america	countryName
+slovenia south america	countryName
+austria south america	countryName
+canada south america	countryName
+italy south america	countryName
+france south america	countryName
+usa north america	countryName
+vatican city north america	countryName
+san marino north america	countryName
+switzerland north america	countryName
+slovenia north america	countryName
+austria north america	countryName
+canada north america	countryName
+italy north america	countryName
+france north america	countryName
+usa africa	countryName
+vatican city africa	countryName
+san marino africa	countryName
+switzerland africa	countryName
+slovenia africa	countryName
+austria africa	countryName
+canada africa	countryName
+italy africa	countryName
+france africa	countryName
+usa asia	countryName
+vatican city asia	countryName
+san marino asia	countryName
+switzerland asia	countryName
+slovenia asia	countryName
+austria asia	countryName
+canada asia	countryName
+italy asia	countryName
+france asia	countryName
+song beyonce sing	trackName
+song lady gaga sing	trackName
+song michael jackson sing	trackName
+song taylor swift sing	trackName
+song madonna sing	trackName
+directed best movie 2010	directorName
+actress oscar 2012	actorName
+oscar best actor 2005	actorName
+scary movie kubrik nicholson	movieName
+directed hugo	directorName
+wa beyonce born usa	artistPlaceOfBirth
+wa lady gaga born usa	artistPlaceOfBirth
+wa michael jackson born usa	artistPlaceOfBirth
+wa taylor swift born usa	artistPlaceOfBirth
+wa madonna born usa	artistPlaceOfBirth
+wa beyonce born houston tx	artistPlaceOfBirth
+wa lady gaga born houston tx	artistPlaceOfBirth
+wa michael jackson born houston tx	artistPlaceOfBirth
+wa taylor swift born houston tx	artistPlaceOfBirth
+wa madonna born houston tx	artistPlaceOfBirth
+wa beyonce born manhattan ny	artistPlaceOfBirth
+wa lady gaga born manhattan ny	artistPlaceOfBirth
+wa michael jackson born manhattan ny	artistPlaceOfBirth
+wa taylor swift born manhattan ny	artistPlaceOfBirth
+wa madonna born manhattan ny	artistPlaceOfBirth
+wa beyonce born holmby hill ca	artistPlaceOfBirth
+wa lady gaga born holmby hill ca	artistPlaceOfBirth
+wa michael jackson born holmby hill ca	artistPlaceOfBirth
+wa taylor swift born holmby hill ca	artistPlaceOfBirth
+wa madonna born holmby hill ca	artistPlaceOfBirth
+wa beyonce born reading pa	artistPlaceOfBirth
+wa lady gaga born reading pa	artistPlaceOfBirth
+wa michael jackson born reading pa	artistPlaceOfBirth
+wa taylor swift born reading pa	artistPlaceOfBirth
+wa madonna born reading pa	artistPlaceOfBirth
+wa beyonce born bay city mi	artistPlaceOfBirth
+wa lady gaga born bay city mi	artistPlaceOfBirth
+wa michael jackson born bay city mi	artistPlaceOfBirth
+wa taylor swift born bay city mi	artistPlaceOfBirth
+wa madonna born bay city mi	artistPlaceOfBirth
+doe album thriller include track beatit	trackName
+madonna sing papa preach	artistName
+movie spielberg neeson win oscar best film	movieName
+french actor win oscar 2012	artistName
+shining kubrik	movieName
+neeson star schindlers list	actorName
+swank win oscar 2000	oscarType
