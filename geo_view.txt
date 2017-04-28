@@ -1,0 +1,7 @@
+CREATE VIEW geo_view as 
+select Cities.Name as capital, Continents.Continent as continentName, Continents.Area_km2 as continentArea, Continents.Population as continentPopulation, Continents.Highest as continentHighest, Continents.Lowest as continentLowest, Countries.Name as countryName, Mountains.Name as mountainName, Mountains.Height as mountainHeight, Seas.Ocean as oceanName, Seas.Deepest as oceanDeepest from Cities,Continents,Borders,Capitals,Countries,CountryContinents,Mountains,Seas,sqlite_sequence
+where
+Cities.Id=Capitals.CityId and Countries.Id=Capitals.CountryId and
+Countries.Id=CountryContinents.CountryId
+and
+Continents.Id=CountryContinents.ContinentId
