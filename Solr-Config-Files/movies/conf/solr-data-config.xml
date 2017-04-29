@@ -1,0 +1,56 @@
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<dataConfig>
+  <dataSource driver="org.sqlite.JDBC" url="jdbc:sqlite:C:/Users/shekh/Desktop/nlp-project/MiniQA-Seals/SealsDB/oscar-movie_imdb.db" user="" password="" />
+  
+  <document>
+    <entity name="movies"
+            query="select movie.id || actor.actor_id || (case when director.director_id is not null then director.director_id else '' end) || '###Movie' as unique_id,movie.id as movie_id,movie.name as movie_name,year,runtime,genre,case when earnings_rank is not null then earnings_rank else -1 end as earnings_rank,case when a.name is not null then a.name else '' end as actor_name,case when a.dob is not null then a.dob else '' end as actor_dob,case when a.pob is not null then a.pob else '' end as actor_pob,case when b.name is not null then b.name else '' end as director_name,case when b.dob is not null then b.dob else '' end as director_dob,case when b.pob is not null then b.pob else '' end as director_pob,'movie' as category from movie left join actor on  movie.id=actor.movie_id left join person a on actor.actor_id = a.id left join director on movie.id=director.movie_id left join person b on director.director_id=b.id;">
+			
+			<field column="movie_id" sourceColName="id" />
+			<field column="movie_name" sourceColName="movie_name" />
+			<field column="year" sourceColName="year" />
+			<field column="runtime" sourceColName="runtime" />
+			<field column="genre" sourceColName="genre" />
+			<field column="earnings_rank" sourceColName="earnings_rank" />
+			<field column="actor_name" sourceColName="actor_name" />
+			<field column="actor_dob" sourceColName="actor_dob" />
+			<field column="actor_pob" sourceColName="actor_pob" />
+			<field column="director_name" sourceColName="director_name" />
+			<field column="director_dob" sourceColName="director_dob" />
+			<field column="director_pob" sourceColName="director_pob" />
+			<field column="category" sourceColName="category" />
+	</entity>
+    <entity name="oscar"
+            query="select movie.id || lower(type) || '###Oscar' as unique_id,movie.id as movie_id,movie.name as movie_name,movie.year as year,runtime,genre,case when earnings_rank is not null then earnings_rank else -1 end as earnings_rank,case when person.name is not null then person.name else '' end as name,case when dob is not null then dob else '' end as dob,case when pob is not null then pob else '' end as pob,type,oscar.year as oscar_year,'oscar' as category from oscar left join person on oscar.person_id = person.id left join movie on oscar.movie_id = movie.id">		
+			
+			<field column="movie_name" sourceColName="movie_name" />
+			<field column="year" sourceColName="year" />
+			<field column="runtime" sourceColName="runtime" />
+			<field column="genre" sourceColName="genre" />
+			<field column="earnings_rank" sourceColName="earnings_rank" />
+			<field column="winner_name" sourceColName="name" />
+			<field column="winner_dob" sourceColName="dob" />
+			<field column="winner_pob" sourceColName="pob" />
+			
+			<field column="type" sourceColName="type" />
+			<field column="winning_year" sourceColName="oscar_year" />
+			<field column="category" sourceColName="category" />
+	</entity>			
+  </document>
+</dataConfig>
