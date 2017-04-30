@@ -18,7 +18,6 @@ import urllib2
 
 class QAclassifierSolr:
     def execute_query(self, query, questions_csv_file, db, yes_no_type):
-        print yes_no_type
         df = pd.read_csv(questions_csv_file)
         questionsDF = df['Questions']
         answersDF = df['AnswerType']
@@ -75,8 +74,8 @@ class QAclassifierSolr:
             columnToLabelMappingDict["3"] = "oscar_name_space"
 #        elif(db == "WorldGeography\n"):
 #            print ""
-#        elif(db == "music\n"):
-#            print ""        
+        elif(db == "music\n"):
+            print ""        
 #        print columnToLabelMappingDict
         print columnToLabelMappingDict[str(predictedLabel[0])]
         queryURL = self.createSolrQuery(query,columnToLabelMappingDict[str(predictedLabel[0])])
@@ -85,15 +84,16 @@ class QAclassifierSolr:
         response = eval(connection.read())
 #        print type(response);
         if((response["response"])["numFound"] == 0 and yes_no_type):
-            print "No"
+            answer = "No"
         elif((response["response"])["numFound"] != 0 and yes_no_type):
-            print "Yes"
+            answer = "Yes"
         elif((response["response"])["numFound"] != 0 and yes_no_type == False):
             solrDoc = (response["response"])["docs"][0]
-            print solrDoc[columnToLabelMappingDict[str(predictedLabel[0])]][0]
+            answer = solrDoc[columnToLabelMappingDict[str(predictedLabel[0])]][0]
         else:
-            print "No results found"                                    
-        
+            answer = "No results found"                                    
+        print answer
+        return answer
         
     def cleanText(self, inputText):
         tempText = inputText;
@@ -120,16 +120,18 @@ class QAclassifierSolr:
         baseURL = "http://localhost:8080/solr/movies/select?";
         cleanedTestQuestion = self.cleanText(testQuestion)
         tempQueryTerms = self.removeStopWords(cleanedTestQuestion);
+        print tempQueryTerms
         q = re.sub(' ','+',tempQueryTerms);
         wt = "python";
         defType="edismax";
-        tempQF = "movie_name_space+actor_name_space+oscar_name_space+director_name_space+oscar_type+oscar_year";
+        tempQF = "movie_name_space+actor_name_space+oscar_name_space+director_name_space+oscar_type+oscar_year+winner_pob_space";
         qf = re.sub(predictedClassLabel,predictedClassLabel,tempQF);
         stopwords="true";
         lowercaseOperators = "true";
-        solrQuery = baseURL+"q="+q+"&wt="+wt+"&defType="+defType+"&qf="+qf+"&stopwords="+stopwords+"&lowercaseOperators="+lowercaseOperators;
+        mm="100%25"
+        solrQuery = baseURL+"q="+q+"&wt="+wt+"&defType="+defType+"&qf="+qf+"&stopwords="+stopwords+"&lowercaseOperators="+lowercaseOperators+"&mm="+mm;
         if predictedClassLabel == "oscar_name_space":
-            filterQuery = "oscar";
+            filterQuery = "category:oscar";
             solrQuery = solrQuery + "&fq="+filterQuery;
         return solrQuery;
      
@@ -145,13 +147,12 @@ training_set = nltk.classify.apply_features(analysis.extract_features, analysis.
 print("Starting...")
 classifier = nltk.NaiveBayesClassifier.train(training_set)
 
-query = "Did Neeson star in Schindler's List??"#input('Enter a query within double quotes: ')
+query = "Did a French actor win the oscar in 2012??"#input('Enter a query within double quotes: ')
 db = classifier.classify(analysis.extract_features(analysis.generate_input_tokens(1, process.cleanup(query)))) 
 print db
 
 yes_no = set(["was","did", "is", "does", "were", "could", "do", "are", "have", "had", "should"])
 yes_no_type = False
-print query.split(' ', 1)[0]
 if(query.split(' ', 1)[0].lower() in yes_no):
     yes_no_type = True
     
