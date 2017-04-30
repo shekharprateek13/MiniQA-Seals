@@ -8,30 +8,25 @@ Created on Fri Apr 28 21:05:03 2017
 from feature_extraction import feature_extraction
 from SealsPreprocess import SealsPreprocess
 import nltk
-from nltk import load_parser
-from nltk.sem import chat80
-import string
 import re
 import pandas as pd
 from nltk.corpus import stopwords
-from sklearn.cross_validation import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
 from sklearn import svm
-from urllib2 import *
-import urllib
+import urllib2
 
 
 class QAclassifierSolr:
-    def execute_query(self, query, questions_csv_file, db):
+    def execute_query(self, query, questions_csv_file, db, yes_no_type):
+        print yes_no_type
         df = pd.read_csv(questions_csv_file)
         questionsDF = df['Questions']
         answersDF = df['AnswerType']
         
         df['AnswerType'] = df['AnswerType'].astype('category')
         answersDFCodes = df['AnswerType'].cat.codes
-        print answersDFCodes.value_counts()
-        print answersDF.value_counts()
+#        print answersDFCodes.value_counts()
+#        print answersDF.value_counts()
         
         questions_list = [];
         for row in questionsDF.iteritems():
@@ -40,7 +35,7 @@ class QAclassifierSolr:
             questions_list.append(cleanedQuestion);
 
 
-        print questions_list
+#        print questions_list
         # Create feature vectors
         vectorizer = TfidfVectorizer(min_df=0.00125,
                                      max_df = 1.0,
@@ -51,48 +46,53 @@ class QAclassifierSolr:
                                      ngram_range=(1,3),lowercase=True)
         
         totalVectors = vectorizer.fit_transform(questions_list);
-        print totalVectors.shape
-        
-        print totalVectors.shape
+#        print totalVectors.shape
+#        
+#        print totalVectors.shape
         
         svmLinearKernelClassifier = svm.LinearSVC();
         svmLinearKernelClassifier.fit(totalVectors, answersDFCodes)
-        testQuestion = "What is the name of Avatar's director?"
-        cleanedTestQuestion = self.cleanText(testQuestion)
+#        testQuestion = "What is the name of Avatar's director?"
+        cleanedTestQuestion = self.cleanText(query)
         print cleanedTestQuestion
-        print self.removeStopWords(cleanedTestQuestion)
+#        print self.removeStopWords(cleanedTestQuestion)
         
         cleanedQuestionList = [];
         cleanedQuestionList.append(cleanedTestQuestion);
         print cleanedQuestionList;
             
         testVector = vectorizer.transform(cleanedQuestionList);
-        print testVector.shape;
+#        print testVector.shape;
         
         predictedLabel = svmLinearKernelClassifier.predict(testVector)
         
         print str(predictedLabel[0])
-        
-        if(db == "oscar-movie_imdb\n"):
-            columnToLabelMappingDict = dict();
+        columnToLabelMappingDict = dict();
+        if(db == "movies"):
             columnToLabelMappingDict["0"] = "actor_name_space"
             columnToLabelMappingDict["1"] = "director_name_space"
             columnToLabelMappingDict["2"] = "movie_name_space"
             columnToLabelMappingDict["3"] = "oscar_name_space"
-        elif(db == "WorldGeography\n"):
-            columnToLabelMappingDict = dict();
-        elif(db == "music\n"):
-            columnToLabelMappingDict = dict();
-        
-        print columnToLabelMappingDict
-        
-        queryURL = self.createSolrQuery(testQuestion,columnToLabelMappingDict[str(predictedLabel[0])])
+#        elif(db == "WorldGeography\n"):
+#            print ""
+#        elif(db == "music\n"):
+#            print ""        
+#        print columnToLabelMappingDict
+        print columnToLabelMappingDict[str(predictedLabel[0])]
+        queryURL = self.createSolrQuery(query,columnToLabelMappingDict[str(predictedLabel[0])])
         print queryURL
-        connection = self.urlopen(queryURL)
+        connection = urllib2.urlopen(queryURL)
         response = eval(connection.read())
-        
-        print type(response);
-        print (response["response"])["docs"][0];
+#        print type(response);
+        if((response["response"])["numFound"] == 0 and yes_no_type):
+            print "No"
+        elif((response["response"])["numFound"] != 0 and yes_no_type):
+            print "Yes"
+        elif((response["response"])["numFound"] != 0 and yes_no_type == False):
+            solrDoc = (response["response"])["docs"][0]
+            print solrDoc[columnToLabelMappingDict[str(predictedLabel[0])]][0]
+        else:
+            print "No results found"                                    
         
         
     def cleanText(self, inputText):
@@ -117,14 +117,14 @@ class QAclassifierSolr:
         return cleanedText
         
     def createSolrQuery(self, testQuestion,predictedClassLabel):
-        baseURL = "http://localhost:8080/solr/collection1/select?";
+        baseURL = "http://localhost:8080/solr/movies/select?";
         cleanedTestQuestion = self.cleanText(testQuestion)
         tempQueryTerms = self.removeStopWords(cleanedTestQuestion);
         q = re.sub(' ','+',tempQueryTerms);
         wt = "python";
         defType="edismax";
         tempQF = "movie_name_space+actor_name_space+oscar_name_space+director_name_space+oscar_type+oscar_year";
-        qf = re.sub(predictedClassLabel,predictedClassLabel+"^100",tempQF);
+        qf = re.sub(predictedClassLabel,predictedClassLabel,tempQF);
         stopwords="true";
         lowercaseOperators = "true";
         solrQuery = baseURL+"q="+q+"&wt="+wt+"&defType="+defType+"&qf="+qf+"&stopwords="+stopwords+"&lowercaseOperators="+lowercaseOperators;
@@ -145,16 +145,22 @@ training_set = nltk.classify.apply_features(analysis.extract_features, analysis.
 print("Starting...")
 classifier = nltk.NaiveBayesClassifier.train(training_set)
 
-query = input('Enter a query within double quotes: ')
+query = "Did Neeson star in Schindler's List??"#input('Enter a query within double quotes: ')
 db = classifier.classify(analysis.extract_features(analysis.generate_input_tokens(1, process.cleanup(query)))) 
 print db
 
+yes_no = set(["was","did", "is", "does", "were", "could", "do", "are", "have", "had", "should"])
+yes_no_type = False
+print query.split(' ', 1)[0]
+if(query.split(' ', 1)[0].lower() in yes_no):
+    yes_no_type = True
+    
 if(db == "music\n"):
-    solrClassifier.execute_query(query, 'music_questions.csv', "music")
+    solrClassifier.execute_query(query, 'music_questions.csv', "music", yes_no_type)
 elif(db == "WorldGeography\n"):
-    solrClassifier.execute_query(query, 'geography_questions.csv', "WorldGeography")
+    solrClassifier.execute_query(query, 'geography_questions.csv', "WorldGeography", yes_no_type)
 elif(db == "oscar-movie_imdb\n"):
-    solrClassifier.execute_query(query, 'movies_questions.csv', "oscar-movie_imdb")
+    solrClassifier.execute_query(query, 'movies_questions.csv', "movies", yes_no_type)
     
     
 

@@ -1,0 +1,776 @@
+Questions,AnswerType
+Who directed Hugo?,director_name
+Who directed the best movie in 2010?,director_name
+Who directed Avatar?,director_name
+Did a movie by Spielberg with Neeson win the oscar for best film?,oscar_name
+which director won the best director oscar in 2018?,oscar_name
+What is the name of Avatar's director?,director_name
+What is Avatar's director name?,director_name
+What is Avatar movie director's name?,director_name
+What is the name of Hugo's director?,director_name
+What is Hugo's director name?,director_name
+What is Hugo movie director's name?,director_name
+Who is the director of movie Avatar?,director_name
+Who is the director of Hugo?,director_name
+Which movie did James Cameron directed?,movie_name
+what is the name of the movie directed by James Cameron in 2009?,movie_name
+what is the name of the movie directed by James Cameron in 1994?,movie_name
+what is the name of the movie directed by James Cameron in 1991?,movie_name
+what is the name of the movie directed by James Cameron in 1997?,movie_name
+Which is the scary movie by Kubrik with Nicholson?,movie_name
+what is the name of the movie directed by Kubrik with Nicholson?,movie_name
+What is the name of movie in which Robert Downey Jr acted in 2013?,movie_name
+Which movie won Oscar in 2013?,oscar_name
+which movie won the best director award in 2016?,movie_name
+What is the movie starring Robert Downey in 2013 and dircted by Shane Black?,movie_name
+Which movie did Shane Black directed?,movie_name
+Name of movie directed by shane black in year 2013?,movie_name
+Is the Shining by Kubrik?,movie_name
+Which movie Stephen Lang featured in year 2009?,movie_name
+Did Neeson star in Schindler's List?,movie_name
+What was the lead actor's name in movie Iron Man 3?,actor_name
+Who won the oscar for the best actor in 2005?,oscar_name
+Which actress won the oscar in 2012?,oscar_name
+Who was nominated the best actor award in 2010?,actor_name
+Who played the lead role in movie The Dark Knight?,actor_name
+Who played the lead role in The Dark Knight?,actor_name
+Which actor won the oscar in 2016?,oscar_name
+Who was the lead actress in The Dark Knight?,actor_name
+Did a French actor win the oscar in 2012?,oscar_name
+Did Swank win the oscar in 2000?,oscar_name
+Did robert downey jr won as oscar in 2018?,oscar_name
+Who directed Avatar?,director_name
+Who directed Titanic?,director_name
+Who directed Jurassic World?,director_name
+Who directed The Avengers?,director_name
+Who directed The Dark Knight?,director_name
+Who directed Star Wars: Episode I - The Phantom Menace?,director_name
+Who directed Star Wars?,director_name
+Who directed Avengers: Age of Ultron?,director_name
+Who directed The Dark Knight Rises?,director_name
+Who directed Shrek 2?,director_name
+Who directed E.T. the Extra-Terrestrial?,director_name
+Who directed The Hunger Games: Catching Fire?,director_name
+Who directed Pirates of the Caribbean: Dead Man's Chest?,director_name
+"Who directed Lion King, The?",director_name
+Who directed Toy Story 3?,director_name
+Who directed Iron Man 3?,director_name
+Who directed The Hunger Games?,director_name
+Who directed Spider-Man?,director_name
+Who directed Jurassic Park?,director_name
+Who directed Transformers: Revenge of the Fallen?,director_name
+Who directed Frozen?,director_name
+Who directed Harry Potter and the Deathly Hallows: Part 2?,director_name
+Who directed Finding Nemo?,director_name
+Who directed Star Wars: Episode III - Revenge of the Sith?,director_name
+"Who directed Lord of the Rings: The Return of the King, The?",director_name
+Who directed Spider-Man 2?,director_name
+"Who directed Passion of the Christ, The?",director_name
+Who directed Despicable Me 2?,director_name
+Who directed Transformers: Dark of the Moon?,director_name
+Who directed Inside Out?,director_name
+Who directed Furious 7?,director_name
+Who directed American Sniper?,director_name
+"Who directed Lord of the Rings: The Two Towers, The?",director_name
+Who directed The Hunger Games: Mockingjay - Part 1?,director_name
+Who directed Spider-Man 3?,director_name
+Who directed Alice in Wonderland?,director_name
+Who directed Guardians of the Galaxy?,director_name
+Who directed Minions?,director_name
+Who directed Forrest Gump?,director_name
+Who directed Shrek the Third?,director_name
+Who directed Transformers?,director_name
+Who directed Iron Man?,director_name
+Who directed Harry Potter and the Sorcerer's Stone?,director_name
+Who directed Indiana Jones and the Kingdom of the Crystal Skull?,director_name
+"Who directed Lord of the Rings: The Fellowship of the Ring, The?",director_name
+Who directed Iron Man 2?,director_name
+Who directed Star Wars: Episode II - Attack of the Clones?,director_name
+Who directed Pirates of the Caribbean: At World's End?,director_name
+Who directed Star Wars: Episode VI - Return of the Jedi?,director_name
+Who directed Independence Day?,director_name
+Who directed Pirates of the Caribbean: The Curse of the Black Pearl?,director_name
+Who directed Skyfall?,director_name
+Who directed The Hobbit: An Unexpected Journey?,director_name
+Who directed Harry Potter and the Half-Blood Prince?,director_name
+Who directed The Twilight Saga: Eclipse?,director_name
+Who directed The Twilight Saga: New Moon?,director_name
+Who directed Harry Potter and the Deathly Hallows: Part 1?,director_name
+"Who directed Sixth Sense, The?",director_name
+Who directed Up?,director_name
+Who directed Inception?,director_name
+Who directed The Twilight Saga: Breaking Dawn - Part 2?,director_name
+Who directed Harry Potter and the Order of the Phoenix?,director_name
+"Who directed The Chronicles of Narnia: The Lion, the Witch and the Wardrobe?",director_name
+Who directed Man of Steel?,director_name
+Who directed Star Wars: Episode V - The Empire Strikes Back?,director_name
+Who directed Harry Potter and the Goblet of Fire?,director_name
+"Who directed Monsters, Inc.?",director_name
+Who directed Home Alone?,director_name
+"Who directed Matrix Reloaded, The?",director_name
+Who directed The Twilight Saga: Breaking Dawn - Part 1?,director_name
+Who directed Meet the Fockers?,director_name
+Who directed The Hangover?,director_name
+Who directed Gravity?,director_name
+Who directed Monsters University?,director_name
+Who directed Shrek?,director_name
+Who directed The Amazing Spider-Man?,director_name
+Who directed Harry Potter and the Chamber of Secrets?,director_name
+Who directed The Incredibles?,director_name
+Who directed How the Grinch Stole Christmas?,director_name
+Who directed Jaws?,director_name
+Who directed Captain America: The Winter Soldier?,director_name
+Who directed The Hobbit: The Desolation of Smaug?,director_name
+Who directed The Lego Movie?,director_name
+Who directed Star Trek?,director_name
+Who directed I Am Legend?,director_name
+Who directed The Blind Side?,director_name
+Who directed The Hobbit: The Battle of the Five Armies?,director_name
+Who directed The Hangover Part II?,director_name
+Who directed Despicable Me?,director_name
+Who directed Batman?,director_name
+Who directed Night at the Museum?,director_name
+Who directed Men in Black?,director_name
+Who directed Harry Potter and the Prisoner of Azkaban?,director_name
+Who directed Raiders of the Lost Ark?,director_name
+Who directed Toy Story 2?,director_name
+Who directed Transformers: Age of Extinction?,director_name
+Who directed Cars?,director_name
+Who directed Bruce Almighty?,director_name
+Who directed Ghostbusters?,director_name
+Who directed Twister?,director_name
+Who directed My Big Fat Greek Wedding?,director_name
+Who directed Maleficent?,director_name
+Who directed Pirates of the Caribbean: On Stranger Tides?,director_name
+Who directed Shrek Forever After?,director_name
+Who directed Fast & Furious 6?,director_name
+Who directed Brave?,director_name
+Who directed Oz the Great and Powerful?,director_name
+Who directed Beverly Hills Cop?,director_name
+Who directed X-Men: The Last Stand?,director_name
+Who directed War of the Worlds?,director_name
+Who directed X-Men: Days of Future Past?,director_name
+Who directed Cast Away?,director_name
+"Who directed Exorcist, The?",director_name
+"Who directed Lost World: Jurassic Park, The?",director_name
+Who directed Star Trek Into Darkness?,director_name
+Who directed Signs?,director_name
+Who directed Hancock?,director_name
+Who directed The Bourne Ultimatum?,director_name
+Who directed Rush Hour 2?,director_name
+Who directed WALL-E?,director_name
+Who directed Big Hero 6?,director_name
+Who directed National Treasure: Book of Secrets?,director_name
+Who directed Alvin and the Chipmunks: The Squeakquel?,director_name
+Who directed Mrs. Doubtfire?,director_name
+Who directed Beauty and the Beast?,director_name
+Who directed Ted?,director_name
+Who directed King Kong?,director_name
+Who directed Ghost?,director_name
+Who directed How to Train Your Dragon?,director_name
+Who directed The Da Vinci Code?,director_name
+Who directed Aladdin?,director_name
+Who directed Alvin and the Chipmunks?,director_name
+Who directed Saving Private Ryan?,director_name
+Who directed Madagascar 3: Europe's Most Wanted?,director_name
+Who directed Kung Fu Panda?,director_name
+Who directed Mission: Impossible II?,director_name
+Who directed X2?,director_name
+Who directed The Lorax?,director_name
+Who directed Austin Powers in Goldmember?,director_name
+Who directed 300?,director_name
+Who directed Back to the Future?,director_name
+Who directed Fast Five?,director_name
+Who directed Mission: Impossible - Ghost Protocol?,director_name
+Who directed Wedding Crashers?,director_name
+Who directed Sherlock Holmes?,director_name
+Who directed Dawn of the Planet of the Apes?,director_name
+Who directed Batman Begins?,director_name
+Who directed Charlie and the Chocolate Factory?,director_name
+Who directed Ratatouille?,director_name
+Who directed Thor: The Dark World?,director_name
+Who directed Austin Powers: The Spy Who Shagged Me?,director_name
+Who directed Terminator 2: Judgment Day?,director_name
+Who directed The Amazing Spider-Man 2?,director_name
+Who directed World War Z?,director_name
+"Who directed Mummy Returns, The?",director_name
+Who directed Armageddon?,director_name
+Who directed Cinderella?,director_name
+Who directed Tangled?,director_name
+Who directed Godzilla?,director_name
+Who directed Superman Returns?,director_name
+Who directed Gone with the Wind?,director_name
+Who directed Pearl Harbor?,director_name
+Who directed Monsters vs Aliens?,director_name
+Who directed Happy Feet?,director_name
+Who directed Indiana Jones and the Last Crusade?,director_name
+Who directed Ice Age: Dawn of the Dinosaurs?,director_name
+Who directed Ice Age: The Meltdown?,director_name
+Who directed Madagascar?,director_name
+Who directed Twilight?,director_name
+Who directed Toy Story?,director_name
+Who directed 22 Jump Street?,director_name
+Who directed Cars 2?,director_name
+Who directed Teenage Mutant Ninja Turtles?,director_name
+Who directed Men in Black II?,director_name
+Who directed Mission: Impossible - Rogue Nation?,director_name
+Who directed Wreck-It Ralph?,director_name
+Who directed Grease?,director_name
+Who directed Interstellar?,director_name
+Who directed Gladiator?,director_name
+Who directed The Croods?,director_name
+Who directed Sherlock Holmes: A Game of Shadows?,director_name
+Who directed The Day After Tomorrow?,director_name
+Who directed Mr. and Mrs. Smith?,director_name
+Who directed Snow White and the Seven Dwarfs?,director_name
+Who directed Dances with Wolves?,director_name
+Who directed Batman Forever?,director_name
+"Who directed Fugitive, The?",director_name
+Who directed Pitch Perfect 2?,director_name
+Who directed Ocean's Eleven?,director_name
+Who directed The Polar Express?,director_name
+Who directed The Simpsons Movie?,director_name
+Who directed What Women Want?,director_name
+"Who directed Perfect Storm, The?",director_name
+Who directed Lincoln?,director_name
+Who directed Liar Liar?,director_name
+Who directed Jurassic Park III?,director_name
+Who directed Thor?,director_name
+Who directed Mission: Impossible?,director_name
+Who directed Planet of the Apes?,director_name
+Who directed Madagascar: Escape 2 Africa?,director_name
+Who directed X-Men Origins: Wolverine?,director_name
+Who directed Indiana Jones and the Temple of Doom?,director_name
+Who directed Top Gun?,director_name
+Who directed Men in Black 3?,director_name
+Who directed Pretty Woman?,director_name
+Who directed Hitch?,director_name
+Who directed Night at the Museum: Battle of the Smithsonian?,director_name
+Who directed Tootsie?,director_name
+Who directed Rise of the Planet of the Apes?,director_name
+Who directed Captain America: The First Avenger?,director_name
+Who directed The Karate Kid?,director_name
+Who directed There's Something About Mary?,director_name
+Who directed Ice Age?,director_name
+Who directed The Bourne Supremacy?,director_name
+Who directed Crocodile Dundee?,director_name
+Who directed Home Alone 2: Lost in New York?,director_name
+Who directed Elf?,director_name
+Who directed National Treasure?,director_name
+Who directed Rain Man?,director_name
+Who directed Air Force One?,director_name
+Who directed Apollo 13?,director_name
+Who directed TRON: Legacy?,director_name
+"Who directed Matrix, The?",director_name
+Who directed Tarzan?,director_name
+Who directed True Grit?,director_name
+"Who directed Beautiful Mind, A?",director_name
+Who directed Chicago?,director_name
+Who directed The Help?,director_name
+Who directed Bridesmaids?,director_name
+Who directed Quantum of Solace?,director_name
+Who directed Wild Hogs?,director_name
+Who directed Three Men and a Baby?,director_name
+Who directed Casino Royale?,director_name
+Who directed Meet the Parents?,director_name
+Who directed 2012?,director_name
+Who directed Robin Hood: Prince of Thieves?,director_name
+Who directed Kung Fu Panda 2?,director_name
+Who directed Hannibal?,director_name
+Who directed Catch Me If You Can?,director_name
+Who directed The Proposal?,director_name
+Who directed Big Daddy?,director_name
+"Who directed Sound of Music, The?",director_name
+Who directed Clash of the Titans?,director_name
+Who directed Batman Returns?,director_name
+Who directed A Bug's Life?,director_name
+Who directed The Pursuit of Happyness?,director_name
+Who directed Grown Ups?,director_name
+"Who directed Waterboy, The?",director_name
+Who directed Shark Tale?,director_name
+Who directed Die Another Day?,director_name
+"Who directed Sting, The?",director_name
+"Who directed Firm, The?",director_name
+Who directed The Longest Yard?,director_name
+Who directed X-Men?,director_name
+Who directed Scary Movie?,director_name
+Who directed Fatal Attraction?,director_name
+Who directed What Lies Beneath?,director_name
+Who directed The Mummy?,director_name
+Who directed Fast and Furious?,director_name
+Who directed Over the Hedge?,director_name
+Who directed Fantastic Four?,director_name
+Who directed Horton Hears a Who!?,director_name
+Who directed Who Framed Roger Rabbit?,director_name
+Who directed Beverly Hills Cop II?,director_name
+Who directed Jerry Maguire?,director_name
+Who directed Scooby-Doo?,director_name
+Who directed One Hundred and One Dalmatians?,director_name
+Who directed Sex and the City?,director_name
+Who directed Runaway Bride?,director_name
+Who directed Rambo: First Blood Part II?,director_name
+Who directed Terminator 3: Rise of the Machines?,director_name
+Who directed Knocked Up?,director_name
+Who directed Talladega Nights: The Ballad of Ricky Bobby?,director_name
+Who directed Gremlins?,director_name
+Who directed Gran Torino?,director_name
+Who directed As Good As It Gets?,director_name
+Who directed Lethal Weapon 2?,director_name
+Who directed Paul Blart: Mall Cop?,director_name
+Who directed True Lies?,director_name
+Who directed Lilo and Stitch?,director_name
+Who directed American Pie 2?,director_name
+Who directed Taken?,director_name
+"Who directed Santa Clause, The?",director_name
+"Who directed I, Robot?",director_name
+Who directed Lethal Weapon 3?,director_name
+"Who directed Fast and the Furious, The?",director_name
+Who directed G.I. Joe: The Rise of Cobra?,director_name
+Who directed Doctor Dolittle?,director_name
+Who directed Juno?,director_name
+"Who directed Jungle Book, The?",director_name
+Who directed The Chronicles of Narnia: Prince Caspian?,director_name
+Who directed Animal House?,director_name
+Who directed Pocahontas?,director_name
+"Who directed Few Good Men, A?",director_name
+Who directed XXX?,director_name
+Who directed Rush Hour?,director_name
+"Who directed Blair Witch Project, The?",director_name
+Who directed Deep Impact?,director_name
+Who directed Look Who's Talking?,director_name
+Who directed Rush Hour 3?,director_name
+Who directed Stuart Little?,director_name
+"Who directed Rocky Horror Picture Show, The?",director_name
+Who directed Sister Act?,director_name
+Who directed Mamma Mia!?,director_name
+"Who directed Matrix Revolutions, The?",director_name
+"Who directed Santa Clause 2, The?",director_name
+Who directed Cheaper by the Dozen?,director_name
+Who directed Bad Boys II?,director_name
+Who directed Good Will Hunting?,director_name
+Who directed Platoon?,director_name
+Who directed Dinosaur?,director_name
+Who directed Click?,director_name
+"Who directed Green Mile, The?",director_name
+Who directed Ransom?,director_name
+Who directed 101 Dalmatians?,director_name
+Who directed Chicken Little?,director_name
+Who directed Patch Adams?,director_name
+"Who directed Godfather, The?",director_name
+Who directed Superman?,director_name
+"Who directed Rock, The?",director_name
+Who directed Anger Management?,director_name
+Who directed Mission: Impossible III?,director_name
+Who directed Troy?,director_name
+Who directed Bringing Down the House?,director_name
+Who directed Hulk?,director_name
+Who directed Minority Report?,director_name
+Who directed Lara Croft: Tomb Raider?,director_name
+"Who directed Silence of the Lambs, The?",director_name
+"Who directed Honey, I Shrunk the Kids?",director_name
+"Who directed Flintstones, The?",director_name
+Who directed American Beauty?,director_name
+"Who directed Officer and a Gentleman, An?",director_name
+Who directed Lethal Weapon 4?,director_name
+Who directed Saturday Night Fever?,director_name
+Who directed Million Dollar Baby?,director_name
+Who directed Ray?,director_name
+Who directed The Aviator?,director_name
+Who directed Mystic River?,director_name
+Who directed Monster?,director_name
+Who directed Cold Mountain?,director_name
+"Who directed Pianist, The?",director_name
+"Who directed Hours, The?",director_name
+Who directed Adaptation.?,director_name
+Who directed Training Day?,director_name
+Who directed Monster's Ball?,director_name
+Who directed Iris?,director_name
+Who directed Erin Brockovich?,director_name
+Who directed Traffic?,director_name
+Who directed Pollock?,director_name
+Who directed Boys Don't Cry?,director_name
+"Who directed Cider House Rules, The?",director_name
+"Who directed Girl, Interrupted?",director_name
+Who directed Shakespeare in Love?,director_name
+"Who directed Vita e bella, La?",director_name
+Who directed Affliction?,director_name
+Who directed L.A. Confidential?,director_name
+"Who directed English Patient, The?",director_name
+Who directed Shine?,director_name
+Who directed Fargo?,director_name
+Who directed Braveheart?,director_name
+Who directed Leaving Las Vegas?,director_name
+Who directed Dead Man Walking?,director_name
+"Who directed Usual Suspects, The?",director_name
+Who directed Mighty Aphrodite?,director_name
+Who directed Blue Sky?,director_name
+Who directed Ed Wood?,director_name
+Who directed Bullets Over Broadway?,director_name
+Who directed Schindler's List?,director_name
+Who directed Philadelphia?,director_name
+"Who directed Piano, The?",director_name
+Who directed Unforgiven?,director_name
+Who directed Scent of a Woman?,director_name
+Who directed Howards End?,director_name
+Who directed My Cousin Vinny?,director_name
+Who directed City Slickers?,director_name
+"Who directed Fisher King, The?",director_name
+Who directed Reversal of Fortune?,director_name
+Who directed Misery?,director_name
+Who directed Goodfellas?,director_name
+Who directed Driving Miss Daisy?,director_name
+Who directed My Left Foot?,director_name
+Who directed Glory?,director_name
+Who directed Born on the Fourth of July?,director_name
+"Who directed Accused, The?",director_name
+"Who directed Fish Called Wanda, A?",director_name
+"Who directed Accidental Tourist, The?",director_name
+"Who directed Last Emperor, The?",director_name
+Who directed Wall Street?,director_name
+Who directed Moonstruck?,director_name
+"Who directed Untouchables, The?",director_name
+"Who directed Color of Money, The?",director_name
+Who directed Children of a Lesser God?,director_name
+Who directed Hannah and Her Sisters?,director_name
+Who directed Out of Africa?,director_name
+Who directed Kiss of the Spider Woman?,director_name
+"Who directed Trip to Bountiful, The?",director_name
+Who directed Cocoon?,director_name
+Who directed Prizzi's Honor?,director_name
+Who directed Amadeus?,director_name
+Who directed Places in the Heart?,director_name
+"Who directed Killing Fields, The?",director_name
+"Who directed Passage to India, A?",director_name
+Who directed Terms of Endearment?,director_name
+Who directed Tender Mercies?,director_name
+"Who directed Year of Living Dangerously, The?",director_name
+Who directed Gandhi?,director_name
+Who directed Sophie's Choice?,director_name
+Who directed Chariots of Fire?,director_name
+Who directed On Golden Pond?,director_name
+Who directed Arthur?,director_name
+Who directed Reds?,director_name
+Who directed Ordinary People?,director_name
+Who directed Raging Bull?,director_name
+Who directed Coal Miner's Daughter?,director_name
+Who directed Melvin and Howard?,director_name
+Who directed Kramer vs. Kramer?,director_name
+Who directed Norma Rae?,director_name
+Who directed Being There?,director_name
+"Who directed Deer Hunter, The?",director_name
+Who directed Coming Home?,director_name
+Who directed California Suite?,director_name
+Who directed Annie Hall?,director_name
+"Who directed Goodbye Girl, The?",director_name
+Who directed Julia?,director_name
+Who directed Rocky?,director_name
+Who directed Network?,director_name
+Who directed All the President's Men?,director_name
+Who directed One Flew Over the Cuckoo's Nest?,director_name
+"Who directed Sunshine Boys, The?",director_name
+Who directed Shampoo?,director_name
+"Who directed Godfather: Part II, The?",director_name
+Who directed Harry and Tonto?,director_name
+Who directed Alice Doesn't Live Here Anymore?,director_name
+Who directed Murder on the Orient Express?,director_name
+Who directed Save the Tiger?,director_name
+"Who directed Touch of Class, A?",director_name
+"Who directed Paper Chase, The?",director_name
+Who directed Paper Moon?,director_name
+Who directed Cabaret?,director_name
+Who directed Butterflies Are Free?,director_name
+"Who directed French Connection, The?",director_name
+Who directed Klute?,director_name
+"Who directed Last Picture Show, The?",director_name
+Who directed Patton?,director_name
+Who directed Women in Love?,director_name
+Who directed Ryan's Daughter?,director_name
+Who directed Airport?,director_name
+Who directed Midnight Cowboy?,director_name
+"Who directed Prime of Miss Jean Brodie, The?",director_name
+"Who directed They Shoot Horses, Don't They??",director_name
+Who directed Cactus Flower?,director_name
+Who directed Oliver!?,director_name
+Who directed Charly?,director_name
+Who directed Funny Girl?,director_name
+"Who directed Subject Was Roses, The?",director_name
+Who directed Rosemary's Baby?,director_name
+Who directed In the Heat of the Night?,director_name
+Who directed Guess Who's Coming to Dinner?,director_name
+Who directed Cool Hand Luke?,director_name
+Who directed Bonnie and Clyde?,director_name
+"Who directed Graduate, The?",director_name
+"Who directed Man for All Seasons, A?",director_name
+Who directed Who's Afraid of Virginia Woolf??,director_name
+"Who directed Fortune Cookie, The?",director_name
+Who directed Cat Ballou?,director_name
+Who directed Darling?,director_name
+"Who directed Thousand Clowns, A?",director_name
+"Who directed Patch of Blue, A?",director_name
+Who directed My Fair Lady?,director_name
+Who directed Mary Poppins?,director_name
+Who directed Topkapi?,director_name
+Who directed Alexis Zorbas?,director_name
+Who directed Tom Jones?,director_name
+Who directed Lilies of the Field?,director_name
+Who directed Hud?,director_name
+"Who directed V.I.P.s, The?",director_name
+Who directed Lawrence of Arabia?,director_name
+Who directed To Kill a Mockingbird?,director_name
+"Who directed Miracle Worker, The?",director_name
+Who directed Sweet Bird of Youth?,director_name
+Who directed West Side Story?,director_name
+Who directed Judgment at Nuremberg?,director_name
+"Who directed Ciociara, La?",director_name
+"Who directed Apartment, The?",director_name
+Who directed Elmer Gantry?,director_name
+Who directed BUtterfield 8?,director_name
+Who directed Spartacus?,director_name
+Who directed Ben-Hur?,director_name
+Who directed Room at the Top?,director_name
+"Who directed Diary of Anne Frank, The?",director_name
+Who directed Gigi?,director_name
+Who directed Separate Tables?,director_name
+Who directed I Want to Live!?,director_name
+"Who directed Big Country, The?",director_name
+"Who directed Bridge on the River Kwai, The?",director_name
+"Who directed Three Faces of Eve, The?",director_name
+Who directed Sayonara?,director_name
+Who directed Around the World in Eighty Days?,director_name
+"Who directed King and I, The?",director_name
+Who directed Anastasia?,director_name
+Who directed Lust for Life?,director_name
+Who directed Written on the Wind?,director_name
+Who directed Giant?,director_name
+Who directed Marty?,director_name
+"Who directed Rose Tattoo, The?",director_name
+Who directed Mister Roberts?,director_name
+Who directed East of Eden?,director_name
+Who directed On the Waterfront?,director_name
+"Who directed Country Girl, The?",director_name
+"Who directed Barefoot Contessa, The?",director_name
+Who directed From Here to Eternity?,director_name
+Who directed Stalag 17?,director_name
+Who directed Roman Holiday?,director_name
+"Who directed Greatest Show on Earth, The?",director_name
+Who directed High Noon?,director_name
+"Who directed Come Back, Little Sheba?",director_name
+Who directed Viva Zapata!?,director_name
+"Who directed Bad and the Beautiful, The?",director_name
+"Who directed Quiet Man, The?",director_name
+"Who directed American in Paris, An?",director_name
+"Who directed African Queen, The?",director_name
+"Who directed Streetcar Named Desire, A?",director_name
+"Who directed Place in the Sun, A?",director_name
+Who directed All About Eve?,director_name
+Who directed Cyrano de Bergerac?,director_name
+Who directed Born Yesterday?,director_name
+Who directed Harvey?,director_name
+Who directed All the King's Men?,director_name
+"Who directed Heiress, The?",director_name
+Who directed Twelve O'Clock High?,director_name
+"Who directed Letter to Three Wives, A?",director_name
+Who directed Hamlet?,director_name
+Who directed Johnny Belinda?,director_name
+"Who directed Treasure of the Sierra Madre, The?",director_name
+Who directed Key Largo?,director_name
+Who directed Gentleman's Agreement?,director_name
+"Who directed Double Life, A?",director_name
+"Who directed Farmer's Daughter, The?",director_name
+Who directed Miracle on 34th Street?,director_name
+"Who directed Best Years of Our Lives, The?",director_name
+Who directed To Each His Own?,director_name
+"Who directed Razor's Edge, The?",director_name
+"Who directed Lost Weekend, The?",director_name
+Who directed Mildred Pierce?,director_name
+"Who directed Tree Grows in Brooklyn, A?",director_name
+Who directed National Velvet?,director_name
+Who directed Going My Way?,director_name
+Who directed Gaslight?,director_name
+Who directed None But the Lonely Heart?,director_name
+Who directed Casablanca?,director_name
+Who directed Watch on the Rhine?,director_name
+"Who directed Song of Bernadette, The?",director_name
+"Who directed More the Merrier, The?",director_name
+Who directed For Whom the Bell Tolls?,director_name
+Who directed Mrs. Miniver?,director_name
+Who directed Yankee Doodle Dandy?,director_name
+Who directed Johnny Eager?,director_name
+Who directed How Green Was My Valley?,director_name
+Who directed Sergeant York?,director_name
+Who directed Suspicion?,director_name
+"Who directed Great Lie, The?",director_name
+Who directed Rebecca?,director_name
+"Who directed Philadelphia Story, The?",director_name
+Who directed Kitty Foyle: The Natural History of a Woman?,director_name
+"Who directed Westerner, The?",director_name
+"Who directed Grapes of Wrath, The?",director_name
+"Who directed Goodbye, Mr. Chips?",director_name
+Who directed Stagecoach?,director_name
+Who directed You Can't Take It with You?,director_name
+Who directed Boys Town?,director_name
+Who directed Jezebel?,director_name
+Who directed Kentucky?,director_name
+"Who directed Life of Emile Zola, The?",director_name
+Who directed Captains Courageous?,director_name
+"Who directed Good Earth, The?",director_name
+Who directed In Old Chicago?,director_name
+"Who directed Awful Truth, The?",director_name
+"Who directed Great Ziegfeld, The?",director_name
+"Who directed Story of Louis Pasteur, The?",director_name
+Who directed Come and Get It?,director_name
+Who directed Anthony Adverse?,director_name
+Who directed Mr. Deeds Goes to Town?,director_name
+Who directed Mutiny on the Bounty?,director_name
+"Who directed Informer, The?",director_name
+Who directed Dangerous?,director_name
+Who directed It Happened One Night?,director_name
+Who directed Cavalcade?,director_name
+"Who directed Private Life of Henry VIII., The?",director_name
+Who directed Morning Glory?,director_name
+Who directed Grand Hotel?,director_name
+"Who directed Champ, The?",director_name
+"Who directed Sin of Madelon Claudet, The?",director_name
+Who directed Bad Girl?,director_name
+Who directed Cimarron?,director_name
+"Who directed Free Soul, A?",director_name
+Who directed Min and Bill?,director_name
+Who directed Skippy?,director_name
+"Who directed Broadway Melody, The?",director_name
+Who directed In Old Arizona?,director_name
+Who directed Coquette?,director_name
+"Who directed Divine Lady, The?",director_name
+Who directed Wings?,director_name
+"Who directed Last Command, The?",director_name
+Who directed Seventh Heaven?,director_name
+Who directed Two Arabian Knights?,director_name
+Who directed Crash?,director_name
+Who directed Capote?,director_name
+Who directed Walk the Line?,director_name
+Who directed Syriana?,director_name
+Who directed The Constant Gardener?,director_name
+Who directed Brokeback Mountain?,director_name
+Who directed The Departed?,director_name
+Who directed The Last King of Scotland?,director_name
+Who directed The Queen?,director_name
+Who directed Little Miss Sunshine?,director_name
+Who directed Dreamgirls?,director_name
+Who directed No Country for Old Men?,director_name
+Who directed There Will Be Blood?,director_name
+"Who directed Mome, La?",director_name
+Who directed Michael Clayton?,director_name
+Who directed Milk?,director_name
+Who directed The Reader?,director_name
+Who directed Vicky Cristina Barcelona?,director_name
+Who directed Slumdog Millionaire?,director_name
+Who directed The Hurt Locker?,director_name
+Who directed Crazy Heart?,director_name
+Who directed Inglourious Basterds?,director_name
+Who directed Precious: Based on the Novel Push by Sapphire?,director_name
+Who directed The Lion in Winter?,director_name
+Who directed The King's Speech?,director_name
+Who directed Black Swan?,director_name
+Who directed The Fighter?,director_name
+Who directed The Artist?,director_name
+Who directed The Iron Lady?,director_name
+Who directed Beginners?,director_name
+Who directed Argo?,director_name
+Who directed Silver Linings Playbook?,director_name
+Who directed Django Unchained?,director_name
+Who directed Les Miserables?,director_name
+Who directed Life of Pi?,director_name
+Who directed American Hustle?,director_name
+Who directed 12 Years a Slave?,director_name
+Who directed Dallas Buyers Club?,director_name
+Who directed Blue Jasmine?,director_name
+Who directed Birdman: Or?,director_name
+Who directed The Theory of Everything?,director_name
+Who directed Still Alice?,director_name
+Who directed Whiplash?,director_name
+Who directed Boyhood?,director_name
+Who directed the best movie in 2015?,oscar_name
+Who directed the best movie in 2014?,oscar_name
+Who directed the best movie in 2013?,oscar_name
+Who directed the best movie in 2012?,oscar_name
+Who directed the best movie in 2011?,oscar_name
+Who directed the best movie in 2010?,oscar_name
+Who directed the best movie in 2009?,oscar_name
+Who directed the best movie in 2008?,oscar_name
+Who directed the best movie in 2007?,oscar_name
+Who directed the best movie in 2006?,oscar_name
+Who directed the best movie in 2005?,oscar_name
+Who directed the best movie in 2004?,oscar_name
+Who directed the best movie in 2003?,oscar_name
+Who directed the best movie in 2002?,oscar_name
+Who directed the best movie in 2001?,oscar_name
+Who directed the best movie in 2000?,oscar_name
+Who directed the best movie in 1999?,oscar_name
+Who directed the best movie in 1998?,oscar_name
+Who directed the best movie in 1997?,oscar_name
+Who directed the best movie in 1996?,oscar_name
+Who directed the best movie in 1995?,oscar_name
+Who directed the best movie in 1994?,oscar_name
+Who directed the best movie in 1993?,oscar_name
+Who directed the best movie in 1992?,oscar_name
+Who directed the best movie in 1991?,oscar_name
+Who directed the best movie in 1990?,oscar_name
+Who directed the best movie in 1989?,oscar_name
+Who directed the best movie in 1988?,oscar_name
+Who directed the best movie in 1987?,oscar_name
+Who directed the best movie in 1986?,oscar_name
+Who directed the best movie in 1985?,oscar_name
+Who directed the best movie in 1984?,oscar_name
+Who directed the best movie in 1983?,oscar_name
+Who directed the best movie in 1982?,oscar_name
+Who directed the best movie in 1981?,oscar_name
+Who directed the best movie in 1980?,oscar_name
+Who directed the best movie in 1979?,oscar_name
+Who directed the best movie in 1978?,oscar_name
+Who directed the best movie in 1977?,oscar_name
+Who directed the best movie in 1976?,oscar_name
+Who directed the best movie in 1975?,oscar_name
+Who directed the best movie in 1974?,oscar_name
+Who directed the best movie in 1973?,oscar_name
+Who directed the best movie in 1972?,oscar_name
+Who directed the best movie in 1971?,oscar_name
+Who directed the best movie in 1970?,oscar_name
+Who directed the best movie in 1969?,oscar_name
+Who directed the best movie in 1968?,oscar_name
+Who directed the best movie in 1967?,oscar_name
+Who directed the best movie in 1966?,oscar_name
+Who directed the best movie in 1965?,oscar_name
+Who directed the best movie in 1964?,oscar_name
+Who directed the best movie in 1963?,oscar_name
+Who directed the best movie in 1962?,oscar_name
+Who directed the best movie in 1961?,oscar_name
+Who directed the best movie in 1960?,oscar_name
+Who directed the best movie in 1959?,oscar_name
+Who directed the best movie in 1958?,oscar_name
+Who directed the best movie in 1957?,oscar_name
+Who directed the best movie in 1956?,oscar_name
+Who directed the best movie in 1955?,oscar_name
+Who directed the best movie in 1954?,oscar_name
+Who directed the best movie in 1953?,oscar_name
+Who directed the best movie in 1952?,oscar_name
+Who directed the best movie in 1951?,oscar_name
+Who directed the best movie in 1950?,oscar_name
+Who directed the best movie in 1949?,oscar_name
+Who directed the best movie in 1948?,oscar_name
+Who directed the best movie in 1947?,oscar_name
+Who directed the best movie in 1946?,oscar_name
+Who directed the best movie in 1945?,oscar_name
+Who directed the best movie in 1944?,oscar_name
+Who directed the best movie in 1943?,oscar_name
+Who directed the best movie in 1942?,oscar_name
+Who directed the best movie in 1941?,oscar_name
+Who directed the best movie in 1940?,oscar_name
+Who directed the best movie in 1939?,oscar_name
+Who directed the best movie in 1938?,oscar_name
+Who directed the best movie in 1937?,oscar_name
+Who directed the best movie in 1936?,oscar_name
+Who directed the best movie in 1935?,oscar_name
+Who directed the best movie in 1934?,oscar_name
+Who directed the best movie in 1932?,oscar_name
+Who directed the best movie in 1931?,oscar_name
+Who directed the best movie in 1930?,oscar_name
+Who directed the best movie in 1929?,oscar_name

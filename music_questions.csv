@@ -1,0 +1,92 @@
+Questions,AnswerType
+Which pop artist sings Crazy in Love,artistName
+Which pop artist sings Baby Boy,artistName
+Which pop artist sings Be With You,artistName
+Which pop artist sings 1+1,artistName
+Which pop artist sings I Care,artistName
+Which pop artist sings I Miss You,artistName
+Which pop artist sings Best Thing I Never Had,artistName
+Which pop artist sings Just Dance,artistName
+Which pop artist sings Love Game,artistName
+Which pop artist sings Aura,artistName
+Which pop artist sings Venus,artistName
+Which pop artist sings Thriller Night,artistName
+Which pop artist sings Beat It,artistName
+Which pop artist sings I am Bad,artistName
+Which pop artist sings The Way You Make Me Feel,artistName
+Which pop artist sings Speed Demon,artistName
+Which pop artist sings Welcome To New York,artistName
+Which pop artist sings Blank Space,artistName
+Which pop artist sings White Heat,artistName
+Which pop artist sings Papa Do not Preach,artistName
+Which pop artist sings Open Your Heart,artistName
+Which pop artist sings Devil Pray,artistName
+Which pop artist sings Ghosttown,artistName
+Where was Beyonce born?,artistPlaceOfBirth
+Where was Lady Gaga born?,artistPlaceOfBirth
+Where was Michael Jackson born?,artistPlaceOfBirth
+Where was Madonna born?,artistPlaceOfBirth
+In which album does Crazy in Love appear?,albumName
+In which album does Baby Boy appear?,albumName
+In which album does Be With You appear?,albumName
+In which album does 1+1 appear?,albumName
+In which album does I Care appear?,albumName
+In which album does I Miss You appear?,albumName
+In which album does Best Thing I Never Had appear?,albumName
+In which album does Just Dance appear?,albumName
+In which album does Love Game appear?,albumName
+In which album does Aura appear?,albumName
+In which album does Venus appear?,albumName
+In which album does Thriller Night appear?,albumName
+In which album does Beat It appear?,albumName
+In which album does I am Bad appear?,albumName
+In which album does The Way You Make Me Feel appear?,albumName
+In which album does Speed Demon appear?,albumName
+In which album does Welcome To New York appear?,albumName
+In which album does Blank Space appear?,albumName
+In which album does White Heat appear?,albumName
+In which album does Papa Do not Preach appear?,albumName
+In which album does Open Your Heart appear?,albumName
+In which album does Devil Pray appear?,albumName
+In which album does Ghosttown appear?,albumName
+Which album by Beyonce was released in 2014?,albumName
+Which album by Lady Gaga was released in 2014?,albumName
+Which album by Michael Jackson was released in 2014?,albumName
+Which album by Madonna was released in 2014?,albumName
+which song did Beyonce sing?,trackName
+which song did Lady Gaga sing?,trackName
+which song did Michael Jackson sing?,trackName
+which song did Taylor Swift sing?,trackName
+which song did Madonna sing?,trackName
+Was Beyonce born in the USA?,artistPlaceOfBirth
+Was Lady Gaga born in the USA?,artistPlaceOfBirth
+Was Michael Jackson born in the USA?,artistPlaceOfBirth
+Was Taylor Swift born in the USA?,artistPlaceOfBirth
+Was Madonna born in the USA?,artistPlaceOfBirth
+"Was Beyonce born in the Houston, TX?",artistPlaceOfBirth
+"Was Lady Gaga born in the Houston, TX?",artistPlaceOfBirth
+"Was Michael Jackson born in the Houston, TX?",artistPlaceOfBirth
+"Was Taylor Swift born in the Houston, TX?",artistPlaceOfBirth
+"Was Madonna born in the Houston, TX?",artistPlaceOfBirth
+"Was Beyonce born in the Manhattan, NY?",artistPlaceOfBirth
+"Was Lady Gaga born in the Manhattan, NY?",artistPlaceOfBirth
+"Was Michael Jackson born in the Manhattan, NY?",artistPlaceOfBirth
+"Was Taylor Swift born in the Manhattan, NY?",artistPlaceOfBirth
+"Was Madonna born in the Manhattan, NY?",artistPlaceOfBirth
+"Was Beyonce born in the Holmby Hills, CA?",artistPlaceOfBirth
+"Was Lady Gaga born in the Holmby Hills, CA?",artistPlaceOfBirth
+"Was Michael Jackson born in the Holmby Hills, CA?",artistPlaceOfBirth
+"Was Taylor Swift born in the Holmby Hills, CA?",artistPlaceOfBirth
+"Was Madonna born in the Holmby Hills, CA?",artistPlaceOfBirth
+"Was Beyonce born in the Reading, PA?",artistPlaceOfBirth
+"Was Lady Gaga born in the Reading, PA?",artistPlaceOfBirth
+"Was Michael Jackson born in the Reading, PA?",artistPlaceOfBirth
+"Was Taylor Swift born in the Reading, PA?",artistPlaceOfBirth
+"Was Madonna born in the Reading, PA?",artistPlaceOfBirth
+"Was Beyonce born in the Bay City, MI?",artistPlaceOfBirth
+"Was Lady Gaga born in the Bay City, MI?",artistPlaceOfBirth
+"Was Michael Jackson born in the Bay City, MI?",artistPlaceOfBirth
+"Was Taylor Swift born in the Bay City, MI?",artistPlaceOfBirth
+"Was Madonna born in the Bay City, MI?",artistPlaceOfBirth
+Does the album Thriller include the track BeatIt?,trackName
+Did Madonna sing Papa Do Not Preach?,artistName
