@@ -72,14 +72,29 @@ class QAclassifierSolr:
             columnToLabelMappingDict["1"] = "director_name_space"
             columnToLabelMappingDict["2"] = "movie_name_space"
             columnToLabelMappingDict["3"] = "oscar_name_space"
-#        elif(db == "WorldGeography\n"):
-#            print ""
-        elif(db == "music\n"):
-            print ""        
+            print columnToLabelMappingDict[str(predictedLabel[0])]
+            queryURL = self.createSolrQuery(query,columnToLabelMappingDict[str(predictedLabel[0])])
+            print queryURL
+        elif(db == "WorldGeography"):
+            columnToLabelMappingDict["0"] = "name_space"
+            columnToLabelMappingDict["1"] = "continent_name_space"
+            columnToLabelMappingDict["2"] = "country_name_space"
+            columnToLabelMappingDict["3"] = "capital_city_name_space" 
+            columnToLabelMappingDict["4"] = "neighbouring_countries_name_space"
+            columnToLabelMappingDict["5"] = "ocean_name_space"
+            columnToLabelMappingDict["6"] = "mountain_name_space" 
+            print columnToLabelMappingDict[str(predictedLabel[0])]
+            queryURL = self.createSolrQueryGeography(query,columnToLabelMappingDict[str(predictedLabel[0])])
+            print queryURL
+        elif(db == "music"):
+            columnToLabelMappingDict["0"] = "album_name_space"
+            columnToLabelMappingDict["1"] = "artist_name_space"
+            columnToLabelMappingDict["2"] = "artist_birth_place"
+            columnToLabelMappingDict["3"] = "track_name_space"       
 #        print columnToLabelMappingDict
-        print columnToLabelMappingDict[str(predictedLabel[0])]
-        queryURL = self.createSolrQuery(query,columnToLabelMappingDict[str(predictedLabel[0])])
-        print queryURL
+            print columnToLabelMappingDict[str(predictedLabel[0])]
+            queryURL = self.createSolrQueryMusic(query,columnToLabelMappingDict[str(predictedLabel[0])])
+            print queryURL
         connection = urllib2.urlopen(queryURL)
         response = eval(connection.read())
 #        print type(response);
@@ -134,6 +149,38 @@ class QAclassifierSolr:
             filterQuery = "category:oscar";
             solrQuery = solrQuery + "&fq="+filterQuery;
         return solrQuery;
+        
+    def createSolrQueryMusic(self, testQuestion,predictedClassLabel):
+        baseURL = "http://localhost:8080/solr/music/select?";
+        cleanedTestQuestion = self.cleanText(testQuestion)
+        tempQueryTerms = self.removeStopWords(cleanedTestQuestion);
+        print tempQueryTerms
+        q = re.sub(' ','+',tempQueryTerms);
+        wt = "python";
+        defType="edismax";
+        tempQF = "artist_name_space+album_name_space+track_name_space+genre_name_space+artist_birth_place+artist_birth_yr+album_release_yr";
+        qf = re.sub(predictedClassLabel,predictedClassLabel+"^100",tempQF);
+        stopwords="true";
+        lowercaseOperators = "true";
+        mm="100%25"
+        solrQuery = baseURL+"q="+q+"&wt="+wt+"&defType="+defType+"&qf="+qf+"&stopwords="+stopwords+"&lowercaseOperators="+lowercaseOperators+"&mm="+mm;
+        return solrQuery;
+        
+    def createSolrQueryGeography(self, testQuestion,predictedClassLabel):
+        baseURL = "http://localhost:8080/solr/geography/select?";
+        cleanedTestQuestion = self.cleanText(testQuestion)
+        tempQueryTerms = self.removeStopWords(cleanedTestQuestion);
+        print tempQueryTerms
+        q = re.sub(' ','+',tempQueryTerms);
+        wt = "python";
+        defType="edismax";
+        tempQF = "name_space+continent_name_space+country_name_space+capital_city_name_space+neighbouring_countries_name_space+ocean_name_space+mountain_name_space+mountain_height+ocean_depth+lowest_point+highest_peak+area_sq_km+population";
+        qf = re.sub(predictedClassLabel,predictedClassLabel+"^100",tempQF);
+        stopwords="true";
+        lowercaseOperators = "true";
+        mm="100%25"
+        solrQuery = baseURL+"q="+q+"&wt="+wt+"&defType="+defType+"&qf="+qf+"&stopwords="+stopwords+"&lowercaseOperators="+lowercaseOperators+"&mm="+mm;
+        return solrQuery;
      
 
 process = SealsPreprocess() 
@@ -147,7 +194,7 @@ training_set = nltk.classify.apply_features(analysis.extract_features, analysis.
 print("Starting...")
 classifier = nltk.NaiveBayesClassifier.train(training_set)
 
-query = "Did a French actor win the oscar in 2012??"#input('Enter a query within double quotes: ')
+query = "In which continent does Canada ?"#input('Enter a query within double quotes: ')
 db = classifier.classify(analysis.extract_features(analysis.generate_input_tokens(1, process.cleanup(query)))) 
 print db
 
