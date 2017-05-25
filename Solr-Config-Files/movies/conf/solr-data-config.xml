@@ -37,7 +37,7 @@
 			<field column="category" sourceColName="category" />
 	</entity>
     <entity name="oscar"
-            query="select movie.id || lower(type) || '###Oscar' as unique_id,movie.id as movie_id,movie.name as movie_name,movie.year as year,runtime,genre,case when earnings_rank is not null then earnings_rank else -1 end as earnings_rank,case when person.name is not null then person.name else '' end as name,case when dob is not null then dob else '' end as dob,case when pob is not null then pob else '' end as pob,type,oscar.year as oscar_year,'oscar' as category from oscar left join person on oscar.person_id = person.id left join movie on oscar.movie_id = movie.id">		
+            query="select movie.id || lower(type) || '###Oscar' as unique_id,movie.id as movie_id,movie.name as movie_name,movie.year as year,runtime,genre,case when earnings_rank is not null then earnings_rank else -1 end as earnings_rank,case when person.name is not null then person.name else '' end as winner_name,case when dob is not null then dob else '' end as winner_dob,case when pob is not null then pob else '' end as winner_pob,type,oscar.year as winning_year,'oscar' as category from oscar left join person on oscar.person_id = person.id left join movie on oscar.movie_id = movie.id">		
 			
 			<field column="movie_name" sourceColName="movie_name" />
 			<field column="year" sourceColName="year" />
@@ -49,7 +49,7 @@
 			<field column="winner_pob" sourceColName="pob" />
 			
 			<field column="type" sourceColName="type" />
-			<field column="winning_year" sourceColName="oscar_year" />
+			<field column="winning_year" sourceColName="winning_year" />
 			<field column="category" sourceColName="category" />
 	</entity>			
   </document>

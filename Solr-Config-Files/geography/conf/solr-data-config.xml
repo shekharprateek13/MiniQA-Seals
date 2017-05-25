@@ -1,0 +1,47 @@
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<dataConfig>
+  <dataSource encoding="UTF-8" type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://127.0.0.1/world_geography?tinyInt1isBit=false" batchSize="-1" user="root" password="prateek" /> 
+  <document>
+    <entity name="world_geo" transformer="RegexTransformer" 
+            query="select MD5(concat(id,continent,capital_city)) as unique_id,continent as continent_name,area_km2 as area_sq_km,population,highest as highest_peak, lowest as lowest_point,case when country_name is NULL then '' else country_name end as country_name,case when capital_city is NULL then '' else capital_city end as capital_city,case when group_concat(neighbouring_country) is NULL then '' else group_concat(neighbouring_country) end as neighbouring_countries_list,'world_geo' as category from world_geography group by continent,country_name,capital_city">
+			
+			<field column="continent_name" sourceColName="continent" />
+			<field column="area_sq_km" sourceColName="area_km2" />
+			<field column="population" sourceColName="population" />
+			<field column="lowest_point" sourceColName="lowest_point" />
+			<field column="highest_peak" sourceColName="highest_peak" />
+			<field column="country_name" sourceColName="country_name" />
+			<field column="capital_city" sourceColName="capital_city" />
+			<field column="neighbouring_countries" splitBy="," sourceColName="neighbouring_countries_list" />
+			<field column="category" sourceColName="category" />
+	</entity>
+	<entity name="oceans" query="select MD5(concat(id,ocean)) as unique_id,ocean,deepest,'oceans' as category from seas">
+		   
+  		    <field column="ocean_name" sourceColName="ocean" />
+			<field column="ocean_depth" sourceColName="deepest" />
+			<field column="category" sourceColName="category" />
+	</entity>
+	<entity name="mountains" query="select MD5(concat(id,name)) as unique_id,name,height,'mountains' as category from mountains">
+		   
+  		    <field column="mountain_name" sourceColName="name" />
+			<field column="mountain_height" sourceColName="height" />
+			<field column="category" sourceColName="category" />
+	</entity>
+  </document>
+</dataConfig>

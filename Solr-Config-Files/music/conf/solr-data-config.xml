@@ -1,0 +1,37 @@
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<dataConfig>
+  <dataSource driver="org.sqlite.JDBC" url="jdbc:sqlite:C:/Users/shekh/Desktop/nlp-project/MiniQA-Seals/SealsDB/music.db" user="" password="" />
+  
+  <document>
+    <entity name="movies" transformer="RegexTransformer" 
+            query="select Album.albumId || Track.name || '###Music' as unique_id, Album.albumId as album_id, substr(Album.releaseDate,0,5) as album_release_year,Album.name as album_name, Album.releaseDate as album_release_date, Artist.name as artist_name, Artist.placeOfBith as artist_pob,Artist.dateOfBirth as artist_dob,substr(Artist.dateOfBirth,0,5) as artist_birth_year,Genres.name as genre_name,Track.name as track_name from Album join Track on Track.albumID = Album.albumID join Artist on Artist.id = Album.artsitID join Genres on Genres.id = Album.genreID">
+			
+			<field column="album_id" sourceColName="album_id" />
+			<field column="album_name" sourceColName="album_name" />
+			<field column="album_release_date" sourceColName="album_release_date" />
+			<field column="album_release_year" sourceColName="album_release_year" />
+			<field column="artist_name" sourceColName="artist_name" />
+			<field column="artist_pob" sourceColName="artist_pob" />
+			<field column="artist_dob" sourceColName="artist_dob" />
+			<field column="artist_birth_year" sourceColName="artist_birth_year" />
+			<field column="genre_name" sourceColName="genre_name" />
+			<field column="track_name" sourceColName="track_name" />
+	</entity>
+  </document>
+</dataConfig>

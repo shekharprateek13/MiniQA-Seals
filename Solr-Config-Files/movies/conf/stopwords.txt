@@ -12,3 +12,25 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+star
+starring
+starred
+direct
+directed
+movie
+movies
+lead
+role
+oscar
+win
+winner
+won
+winning
+year
+scary
+actor
+award
+awarded
+received
+got
+comedy
